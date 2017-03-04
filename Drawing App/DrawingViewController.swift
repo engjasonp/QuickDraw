@@ -5,8 +5,8 @@ class DrawingViewController: UIViewController, UINavigationControllerDelegate, U
     // MARK: Properties
     
 
-    @IBOutlet weak var tempImageView: UIImageView!
-    @IBOutlet weak var mainImageView: UIImageView!
+    @IBOutlet weak var tempImageView: UIImageView! // image is transferred to mainImageView
+    @IBOutlet weak var mainImageView: UIImageView! // stores image
     @IBOutlet weak var toolIcon: UIButton!
     
     var lastPoint = CGPoint.zero
